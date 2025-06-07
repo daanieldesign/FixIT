@@ -172,7 +172,7 @@ export function InstagramFeed() {
         <div className="flex items-center gap-3">
           <Instagram className="h-6 w-6 text-pink-600" />
           <div>
-            <h3 className="text-lg font-semibold">@fixit_repairs</h3>
+            <h3 className="text-lg font-semibold">@fixit.cz</h3>
             <p className="text-sm text-gray-600">Latest from our Instagram</p>
           </div>
         </div>

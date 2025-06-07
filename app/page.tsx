@@ -13,8 +13,6 @@ import {
   MapPin,
   Instagram,
   Facebook,
-  Twitter,
-  Youtube,
   MessageCircle,
 } from "lucide-react"
 import Image from "next/image"
@@ -45,28 +43,16 @@ export default function Component() {
           </Link>
           <div className="flex items-center gap-2 ml-4 border-l pl-4">
             <Link
-              href="https://instagram.com/fixit_repairs"
+              href="https://instagram.com/fixit.cz"
               className="text-gray-600 hover:text-pink-600 transition-colors"
             >
               <Instagram className="h-4 w-4" />
             </Link>
             <Link
-              href="https://facebook.com/fixitrepairs"
+              href="https://facebook.com/fixit.cz"
               className="text-gray-600 hover:text-blue-600 transition-colors"
             >
               <Facebook className="h-4 w-4" />
-            </Link>
-            <Link
-              href="https://twitter.com/fixit_repairs"
-              className="text-gray-600 hover:text-blue-400 transition-colors"
-            >
-              <Twitter className="h-4 w-4" />
-            </Link>
-            <Link
-              href="https://youtube.com/fixitrepairs"
-              className="text-gray-600 hover:text-red-600 transition-colors"
-            >
-              <Youtube className="h-4 w-4" />
             </Link>
           </div>
         </nav>
@@ -261,7 +247,7 @@ export default function Component() {
                 <CardHeader>
                   <Instagram className="h-12 w-12 mx-auto text-pink-600 mb-4" />
                   <CardTitle className="text-xl">Instagram</CardTitle>
-                  <CardDescription>@fixit_repairs</CardDescription>
+                  <CardDescription>@fixit.cz</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">
@@ -276,26 +262,9 @@ export default function Component() {
 
               <Card className="text-center hover:shadow-lg transition-shadow">
                 <CardHeader>
-                  <Youtube className="h-12 w-12 mx-auto text-red-600 mb-4" />
-                  <CardTitle className="text-xl">YouTube</CardTitle>
-                  <CardDescription>FixIT Repairs</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600 mb-4">
-                    Detailed repair tutorials, device teardowns, and maintenance tips from our experts.
-                  </p>
-                  <Button variant="outline" className="w-full border-red-200 hover:bg-red-50">
-                    <Youtube className="h-4 w-4 mr-2" />
-                    Subscribe
-                  </Button>
-                </CardContent>
-              </Card>
-
-              <Card className="text-center hover:shadow-lg transition-shadow">
-                <CardHeader>
                   <Facebook className="h-12 w-12 mx-auto text-blue-600 mb-4" />
                   <CardTitle className="text-xl">Facebook</CardTitle>
-                  <CardDescription>FixIT Repairs</CardDescription>
+                  <CardDescription>FixIT.cz</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-4">
@@ -304,23 +273,6 @@ export default function Component() {
                   <Button variant="outline" className="w-full border-blue-200 hover:bg-blue-50">
                     <Facebook className="h-4 w-4 mr-2" />
                     Like Page
-                  </Button>
-                </CardContent>
-              </Card>
-
-              <Card className="text-center hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <MessageCircle className="h-12 w-12 mx-auto text-green-600 mb-4" />
-                  <CardTitle className="text-xl">TikTok</CardTitle>
-                  <CardDescription>@fixit_repairs</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600 mb-4">
-                    Quick repair hacks, satisfying fix videos, and tech tips in bite-sized content.
-                  </p>
-                  <Button variant="outline" className="w-full border-green-200 hover:bg-green-50">
-                    <MessageCircle className="h-4 w-4 mr-2" />
-                    Follow
                   </Button>
                 </CardContent>
               </Card>
@@ -527,18 +479,6 @@ export default function Component() {
               className="text-gray-600 hover:text-blue-600 transition-colors"
             >
               <Facebook className="h-5 w-5" />
-            </Link>
-            <Link
-              href="https://twitter.com/fixit_repairs"
-              className="text-gray-600 hover:text-blue-400 transition-colors"
-            >
-              <Twitter className="h-5 w-5" />
-            </Link>
-            <Link
-              href="https://youtube.com/fixitrepairs"
-              className="text-gray-600 hover:text-red-600 transition-colors"
-            >
-              <Youtube className="h-5 w-5" />
             </Link>
           </div>
         </div>
