@@ -26,20 +26,21 @@ export default function Component() {
       {/* Header */}
       <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-cream sticky top-0 z-50">
         <div className="flex items-center justify-center">
-          <Wrench className="h-8 w-8 text-blue-600" />
-          <span className="ml-2 text-2xl font-bold text-gray-900">FixIT</span>
+        <a href="page.tsx">
+        <img className="h-8" src="/logo.svg" alt="Logo"/>
+        </a>
         </div>
         <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
-          <a href="#about" className="text-sm font-medium hover:text-blue-600 transition-colors">
+          <a href="#about" className="text-l font-medium hover:text-reddy transition-colors">
             About
           </a>
-          <a href="#team" className="text-sm font-medium hover:text-blue-600 transition-colors">
+          <a href="#team" className="text-l font-medium hover:text-reddy transition-colors">
             Team
           </a>
-          <a href="#pricing" className="text-sm font-medium hover:text-blue-600 transition-colors">
+          <a href="#pricing" className="text-l font-medium hover:text-reddy transition-colors">
             Pricing
           </a>
-          <a href="#contact" className="text-sm font-medium hover:text-blue-600 transition-colors">
+          <a href="#contact" className="text-l font-medium hover:text-reddy transition-colors">
             Contact
           </a>
           <div className="flex items-center gap-2 ml-4 border-l pl-4">
@@ -51,7 +52,7 @@ export default function Component() {
             </a>
             <a
               href="https://facebook.com/fixit.cz"
-              className="text-gray-600 hover:text-blue-600 transition-colors"
+              className="text-gray-600 hover:text-reddy transition-colors"
             >
               <Facebook className="h-4 w-4" />
             </a>
@@ -75,7 +76,7 @@ export default function Component() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-3 min-[400px]:flex-row">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                  <Button size="lg" className="bg-logoGreen hover:bg-blue-700">
                     Get Free Quote
                   </Button>
                   <Button variant="outline" size="lg">
@@ -120,7 +121,7 @@ export default function Component() {
               <Card className="text-center h-full">
                 <CardHeader className="pb-4">
                   <div className="flex justify-center mb-4">
-                    <Smartphone className="h-12 w-12 text-blue-600" />
+                    <Smartphone className="h-12 w-12 text-reddy" />
                   </div>
                   <CardTitle className="text-xl">Mobile Devices</CardTitle>
                 </CardHeader>
@@ -135,7 +136,7 @@ export default function Component() {
               <Card className="text-center h-full">
                 <CardHeader className="pb-4">
                   <div className="flex justify-center mb-4">
-                    <Laptop className="h-12 w-12 text-blue-600" />
+                    <Laptop className="h-12 w-12 text-reddy" />
                   </div>
                   <CardTitle className="text-xl">Laptops & Tablets</CardTitle>
                 </CardHeader>
@@ -150,7 +151,7 @@ export default function Component() {
               <Card className="text-center h-full">
                 <CardHeader className="pb-4">
                   <div className="flex justify-center mb-4">
-                    <Monitor className="h-12 w-12 text-blue-600" />
+                    <Monitor className="h-12 w-12 text-reddy" />
                   </div>
                   <CardTitle className="text-xl">Desktop Computers</CardTitle>
                 </CardHeader>
@@ -263,7 +264,7 @@ export default function Component() {
               <Card className="text-center hover:shadow-lg transition-shadow h-full">
                 <CardHeader className="pb-6">
                   <div className="flex justify-center mb-4">
-                    <Facebook className="h-12 w-12 text-blue-600" />
+                    <Facebook className="h-12 w-12 text-reddy" />
                   </div>
                   <CardTitle className="text-xl">Facebook</CardTitle>
                   <CardDescription>FixIT.cz</CardDescription>
@@ -401,7 +402,7 @@ export default function Component() {
               <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
                 Prices may vary based on device model and complexity. Contact us for an accurate quote.
               </p>
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+              <Button size="lg" className="bg-reddy hover:bg-blue-700">
                 Get Free Estimate
               </Button>
             </div>
@@ -425,7 +426,7 @@ export default function Component() {
               <Card className="text-center h-full">
                 <CardHeader className="pb-6">
                   <div className="flex justify-center mb-4">
-                    <Phone className="h-8 w-8 text-blue-600" />
+                    <Phone className="h-8 w-8 text-reddy" />
                   </div>
                   <CardTitle>Call Us</CardTitle>
                 </CardHeader>
@@ -439,7 +440,7 @@ export default function Component() {
               <Card className="text-center h-full">
                 <CardHeader className="pb-6">
                   <div className="flex justify-center mb-4">
-                    <Mail className="h-8 w-8 text-blue-600" />
+                    <Mail className="h-8 w-8 text-reddy" />
                   </div>
                   <CardTitle>Email Us</CardTitle>
                 </CardHeader>
@@ -453,7 +454,7 @@ export default function Component() {
               <Card className="text-center h-full">
                 <CardHeader className="pb-6">
                   <div className="flex justify-center mb-4">
-                    <MapPin className="h-8 w-8 text-blue-600" />
+                    <MapPin className="h-8 w-8 text-reddy" />
                   </div>
                   <CardTitle>Visit Us</CardTitle>
                 </CardHeader>
@@ -471,7 +472,7 @@ export default function Component() {
       {/* Footer */}
       <footer className="flex flex-col gap-4 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-white">
         <div className="flex items-center gap-2">
-          <Wrench className="h-6 w-6 text-blue-600" />
+          <Wrench className="h-6 w-6 text-reddy" />
           <span className="text-lg font-bold text-gray-900">FixIT</span>
         </div>
         <p className="text-xs text-gray-600 sm:ml-4">&copy; 2025 FixIT. All rights reserved.</p>
@@ -487,7 +488,7 @@ export default function Component() {
             </a>
             <a
               href="https://facebook.com/fixitrepairs"
-              className="text-gray-600 hover:text-blue-600 transition-colors"
+              className="text-gray-600 hover:text-reddy transition-colors"
             >
               <Facebook className="h-5 w-5" />
             </a>
