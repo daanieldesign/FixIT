@@ -52,7 +52,7 @@ export default function Component() {
             </a>
             <a
               href="https://facebook.com/fixit.cz"
-              className="text-gray-600 hover:text-reddy transition-colors"
+              className="text-gray-600 hover:text-blue-900 transition-colors"
             >
               <Facebook className="h-4 w-4" />
             </a>
@@ -76,7 +76,7 @@ export default function Component() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-3 min-[400px]:flex-row">
-                  <Button size="lg" className="bg-logoGreen hover:bg-blue-700">
+                  <Button size="lg" className="bg-logoGreen hover:bg-reddy">
                     Get Free Quote
                   </Button>
                   <Button variant="outline" size="lg">
@@ -264,7 +264,7 @@ export default function Component() {
               <Card className="text-center hover:shadow-lg transition-shadow h-full">
                 <CardHeader className="pb-6">
                   <div className="flex justify-center mb-4">
-                    <Facebook className="h-12 w-12 text-reddy" />
+                    <Facebook className="h-12 w-12 text-blue-900" />
                   </div>
                   <CardTitle className="text-xl">Facebook</CardTitle>
                   <CardDescription>FixIT.cz</CardDescription>
@@ -402,7 +402,7 @@ export default function Component() {
               <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
                 Prices may vary based on device model and complexity. Contact us for an accurate quote.
               </p>
-              <Button size="lg" className="bg-reddy hover:bg-blue-700">
+              <Button size="lg" className="bg-logoGreen hover:bg-reddy">
                 Get Free Estimate
               </Button>
             </div>
@@ -471,9 +471,10 @@ export default function Component() {
 
       {/* Footer */}
       <footer className="flex flex-col gap-4 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-white">
-        <div className="flex items-center gap-2">
-          <Wrench className="h-6 w-6 text-reddy" />
-          <span className="text-lg font-bold text-gray-900">FixIT</span>
+        <div className="flex items-center justify-center">
+          <a href="">
+            <img className="h-6" src="/logo.svg" alt="Logo"/>
+          </a>
         </div>
         <p className="text-xs text-gray-600 sm:ml-4">&copy; 2025 FixIT. All rights reserved.</p>
 
@@ -488,7 +489,7 @@ export default function Component() {
             </a>
             <a
               href="https://facebook.com/fixitrepairs"
-              className="text-gray-600 hover:text-reddy transition-colors"
+              className="text-gray-600 hover:text-blue-900 transition-colors"
             >
               <Facebook className="h-5 w-5" />
             </a>
