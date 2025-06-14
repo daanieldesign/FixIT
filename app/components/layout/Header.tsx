@@ -24,12 +24,14 @@ export function Header() {
                 </a>
                 <div className="flex items-center gap-2 ml-4 border-l pl-4">
                     <a
+                        target="_blank"
                         href="https://instagram.com/fixit.cz"
                         className="text-gray-600 hover:text-pink-600 transition-colors"
                     >
                         <Instagram className="h-4 w-4" />
                     </a>
                     <a
+                        target="_blank"
                         href="https://facebook.com/fixit.cz"
                         className="text-gray-600 hover:text-blue-900 transition-colors"
                     >

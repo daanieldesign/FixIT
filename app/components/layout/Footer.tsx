@@ -14,12 +14,14 @@ export function Footer() {
             <div className="flex items-center gap-4 sm:ml-auto">
                 <div className="flex items-center gap-3">
                     <a
+                        target="_blank"
                         href="https://instagram.com/fixit.cz"
                         className="text-gray-600 hover:text-pink-600 transition-colors"
                     >
                         <Instagram className="h-5 w-5" />
                     </a>
                     <a
+                        target="_blank"
                         href="https://facebook.com/fixit.cz"
                         className="text-gray-600 hover:text-blue-900 transition-colors"
                     >
