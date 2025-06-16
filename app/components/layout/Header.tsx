@@ -3,7 +3,8 @@ import Link from "next/link"
 
 export function Header() {
     return (
-        <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-cream sticky top-0 z-50">
+        <header className="px-4 lg:px-6 h-16 flex items-center bg-transparent backdrop-blur-md sticky top-0 z-50">
+
             <div className="flex items-center justify-center">
                 <Link href="page.tsx">
                     <img className="h-8" src="/logo.svg" alt="Logo"/>
