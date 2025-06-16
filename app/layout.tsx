@@ -13,9 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-      <ButtonToTop />
-      {children}
+      <body className="bg-cream min-h-screen">
+        <ButtonToTop />
+        {children}
       </body>
     </html>
   )
